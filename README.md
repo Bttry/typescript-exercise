@@ -22,7 +22,7 @@ tsc --init
 
 ## tsconfig.json
 
-```json
+```js
 {
   // 编译选项
   "compilerOptions": {
