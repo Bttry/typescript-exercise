@@ -1,0 +1,30 @@
+{
+  "name": "typescript-exercise",
+  "version": "1.0.0",
+  "description": "typescript 日常练习",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "watch": "tsc --watch -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bttry/typescript-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bttry/typescript-exercise/issues"
+  },
+  "homepage": "https://github.com/Bttry/typescript-exercise#readme",
+  "dependencies": {
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
